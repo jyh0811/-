@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    html, body {
+        height: 100%;
+        width: 100%;
+    }
+    video {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        top: 0;
+    }
+    header {
+        height: 100%;
+        width: 100%;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: rgba(195, 67, 150, 0.74);
+        font-size: 100px;
+        position: relative;
+        font-family: "华文行楷";
+    }
+    header h1 {
+        font-size: 20px;
+        padding: 40px;
+        font-family: "微软雅黑";
+    }
+    article {
+        background-color: #ffffff80;
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
+    article p {
+        width: 600px;
+        margin: 0 auto;
+        font-size: 20px;
+        font-family: "方正舒体";
+    }
+</style>
+<body>
+    <audio src=".\常用.mp3" autoplay loop>
+    </audio>
+    <video autoplay muted loop src=".\常用.mp4"></video>
+    <header>
+        生日快乐
+        <h1>
+            试试上划看看
+        </h1>
+    </header>
+    <article>
+        <p></p>
+    </article>
+</body>
+</html>
